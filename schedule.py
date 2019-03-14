@@ -17,11 +17,9 @@ def workWithFile(filename):
             file.close()
             return "OK"
         except:
-            print("Please, enter the correct name of the file.")
             return "Incorrect filename"
     else:
-        print("The file extention must be '.txt'")
-        return "incorrect file extention"
+        return "Incorrect file extention"
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
@@ -29,4 +27,6 @@ if __name__ == '__main__':
     elif len(sys.argv) > 2:
         print("There can be only one file.")
     else:
-        workWithFile(sys.argv[1])
+        result = workWithFile(sys.argv[1])
+        if result != "OK":
+            print(result)
