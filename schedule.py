@@ -29,4 +29,4 @@ if __name__ == '__main__':
     elif len(sys.argv) > 2:
         print("There can be only one file.")
     else:
-        print(workWithFile(sys.argv[1]))
+        workWithFile(sys.argv[1])
