@@ -1,6 +1,6 @@
 # ioet-test
 
-This is a simple program to calculate the weekly salary of the employees based on the hours they worked. To complete this assignment, I decided to use Python because it provides the easiest and most elegant solution for reading data from a file.
+This is a simple program to calculate the weekly salary of the employees based on the hours they worked. To complete this assignment, I decided to use Python because it provides the easiest and most elegant solution for reading data from a file. I also used the [datetime module](https://docs.python.org/3/library/datetime.html) from the [Python Standard Lbrary](https://docs.python.org/3/library/).
 
 # Preliminaries
 
