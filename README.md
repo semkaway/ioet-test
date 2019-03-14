@@ -8,7 +8,7 @@ In order to tun the code, you need to have Python installed on your computer. He
 
 # Execution
 
-Open a Terminal (if you're on Mac) or command line (if you're on PC) and then run ```python schedule.py <your-file>```. You can either use the file provided in this repository or create your own. In case you choose the second option, make sure that the file is properly formatted.
+Open a Terminal (if you're on Mac) or command line (if you're on PC) and then run ```python schedule.py <your-file.txt>```. You can either use the file provided in this repository or create your own. In case you choose the second option, make sure that the file is properly formatted.
 
 # Testing
 
