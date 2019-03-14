@@ -9,3 +9,7 @@ In order to tun the code, you need to have Python installed on your computer. He
 # Execution
 
 Open a Terminal (if you're on Mac) or command line (if you're on PC) and then run ```python schedule.py <your-file>```. You can either use the file provided in this repository or create your own. In case you choose the second option, make sure that the file is properly formatted.
+
+# Testing
+
+I uncluded two sets of tests: one to check the file that is being passed to the program and another one to test the function that counts the weekly salary. In order to execute the first test, from the root directory, run ```cd tests && python test_schedule.py```. As for the second one, the command is ```cd tests && python test_functions.py```.
